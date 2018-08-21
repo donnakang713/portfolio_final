@@ -1,0 +1,1010 @@
+body {
+  font: 18px/1.5 'Rubik', sans-serif;
+  color: #1A1B3A;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*** Header and Hero Section ***/
+header {
+  min-height: 400px;
+  max-height: 700px;
+  background-image: url("../images/Background Image .png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding img {
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+header a:hover {
+  color: #ff5252;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
+
+header h1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  color: white;
+  font-family: "Avenir Next" !important;
+}
+
+header p {
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Avenir Next" !important;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#showcase2 img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** Paragraphs Styling ***/
+#problem h2 {
+  margin-top: 100px;
+}
+
+.paragraph_wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+  h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 80px 0 15px 0;
+  padding: 0;
+}
+
+  p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+/*** Deliverables Section ***/
+#deliverables {
+  background-color: rgba(216, 216, 216, 0.2);
+  padding: 50px 0px 50px 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+#deliverables .box {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+  padding: 0;
+}
+
+#deliverables li {
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/**** Button Styling ***/
+a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ff5252;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F58454;
+}
+
+.button:hover i {
+  color: #F58454;
+}
+
+.fa-caret-right {
+  color: #ff5252;
+}
+
+/*** Solutions Section ***/
+#solution .link1 {
+  float: left;
+  width: 45%;
+  text-align: center;
+  padding-right: 10%;
+}
+
+#solution .link2 {
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+#solution img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*** User Survey Section ***/
+#user_survey li {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#user_survey ul {
+  margin-bottom: 20px;
+}
+
+/*** User Survey Results Section ***/
+#user_results {
+  width: 100%;
+  background-image: url("../images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.actual_results {
+  width: 60%;
+  margin: auto;
+}
+
+#user_results li {
+  line-height: 55px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#user_results span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/*** Competitive Analysis Section ***/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 5%;
+}
+
+/**** User Persona Section ***/
+.users {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 90%;
+}
+
+/*** TargetAudience_Differentiators ***/
+#TargetAudience_Differentiators {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: rgba(216, 216, 216, 0.2);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.wrapper2 {
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.results1 {
+  width: 49.9%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px 0 0 20px;
+}
+
+.results2 {
+  width: 49.9%;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.audienceimages {
+  margin: auto;
+  width: 70%;
+}
+
+#TargetAudience_Differentiators h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*** User Stories Section ***/
+.usersflow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+#userstory {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 80%;
+  background-color: rgba(216, 216, 216, 0.2);
+  padding-top: 50px;
+  border-radius: 20px;
+}
+
+#userstory h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top:0;
+  margin-bottom: 10px;
+}
+
+#userstory p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+#userstory span {
+  font-weight: 500;
+}
+
+/*** Wireframe Sections ***/
+#Wireframe_images {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(216, 216, 216, 0.2);
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+.wireframe1,
+.wireframe3,
+.wireframe4 {
+  display: inline-block;
+  margin-left: 5%;
+  width: 44%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+  margin-bottom: 1.5%;
+}
+
+.wireframe1,
+.wireframe2 {
+  margin-top: 50px;
+}
+.wireframe-explain {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.wireframe2 {
+  float: right;
+  margin-right: 5%;
+  width: 44%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+}
+
+/*** User Testing Section ***/
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
+/*** High fidelity Section ***/
+#high_fidelity_2 {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(216, 216, 216, 0.2);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 0% 5% 5% 5%;
+}
+
+.highfi {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: auto;
+}
+
+#high_fidelity_2 span {
+  font-weight: 500;
+}
+
+.image1 {
+  width: 95%;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+}
+
+#high_fidelity_2 h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-top: 50px;
+  margin-bottom:20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6BA6D3;
+}
+
+#high_fidelity_2 ol {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+#high_fidelity_2 li {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+#high_fidelity_2 .first {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+#high_fidelity_2 h5 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*** branding section ***/
+#branding2 {
+  width: 70%;
+  margin: auto;
+  background-color: rgba(216, 216, 216, 0.2);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 60px;
+  }
+
+
+#branding2 .brand-paragraph {
+  width: 48%;
+  padding-left: 2%;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+#branding2 .brand-paragraph2 {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+#branding2 .brand2 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#branding2 h4 {
+  padding: 25px 0 0 0;
+  margin: 0 0 15px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#branding2 .logo-image {
+  width: 50%;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+#branding2 .text-example {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+#branding2 .color-image {
+  width: 45%;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 30px;
+  display: block;
+  margin: auto;
+}
+
+/*** Final Product Section ***/
+#final-product-mobile,
+#final-product-desktop {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(216, 216, 216, 0.2);
+  margin-top: 4%;
+  border-radius: 20px;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.container2 {
+  width: 48%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#final-product-desktop h4,
+#final-product-mobile h4 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+#final-product-desktop a,
+#final-product-mobile a {
+  text-align: center;
+}
+
+.phone {
+  width: 100%;
+  margin: auto;
+  margin-top: 3%;
+  overflow: auto;
+}
+
+.phone1 {
+  margin-right: 2%;
+  margin-left: 6%;
+  width: 20%;
+}
+
+.phone2,
+.phone3 {
+  margin-right: 2%;
+  width: 20%;
+}
+.phone4 {
+  width: 20%;
+  margin-right: 6%;
+}
+
+.phone5 {
+  margin-right: 2%;
+  margin-left: 6%;
+  width: 20%;
+}
+
+.phone6,
+.phone7 {
+  margin-right: 2%;
+  width: 20%;
+}
+
+.phone8 {
+  width: 20%;
+  margin-right: 6%:
+}
+
+.phone1,
+.phone2,
+.phone3,
+.phone4,
+.phone5,
+.phone6,
+.phone7,
+.phone8 {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+}
+
+.desktop2,
+.desktop3,
+.desktop4,
+.desktop5 {
+  display: inline-block;
+  width: 44%;
+  float: left;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+  margin-left: 5%;
+}
+
+.desktop1 {
+  float: right;
+  align: top;
+  width: 44%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.desktop2 {
+  margin-top: 3%;
+}
+
+.desktop3,
+.desktop4,
+.desktop5 {
+  margin-top: 2%;
+}
+
+/*** Key Learnings ***/
+.keylearning {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1A1B3A;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+#KeyLearnings ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+#KeyLearnings li {
+  margin-bottom: 30px;
+}
+
+#KeyLearnings span {
+  font-weight: 500;
+}
+
+/*** Footer Section ***/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color:#1A1B3A;
+  text-align: center;
+}
+
+
+/*** Media Queries ***/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  header {
+    min-height: 400px;
+    max-height: 630px;
+  }
+
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header #branding img {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  header li {
+    padding: 0 10px 0 10px;
+  }
+
+  header h1 {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    margin-bottom: 30px;
+  }
+
+  #showcase2 img {
+  width: 100%;
+}
+
+.paragraph_wrapper {
+  width: 85%;
+}
+
+h2 {
+  margin: 40px 0 15px 0;
+}
+
+
+#deliverables {
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+#solution .link1,
+#solution .link2 {
+  width: 100%;
+  text-align: center;
+}
+
+.actual_results {
+  width: 90%;
+}
+
+#user_results li {
+  line-height: 45px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#user_results span {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.center {
+  width: 90%;
+}
+
+.users {
+  width: 100%;
+}
+
+#TargetAudience_Differentiators {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.wrapper2 {
+  width: 65%;
+}
+
+.audienceimages {
+  margin: auto;
+  width: 80%;
+}
+
+#userstory {
+  width: 100%;
+  padding-top: 50px;
+  border-radius: 0px;
+}
+
+.usersflow {
+  width: 90%;
+}
+
+#Wireframe_images {
+  padding-top: 40px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.wireframe1,
+.wireframe2,
+.wireframe3,
+.wireframe4 {
+  width: 85%;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.wireframe2 {
+  float: none;
+}
+.wireframe-explain {
+  width: 70%;
+}
+
+#high_fidelity_2 {
+  width: 100%;
+  border-radius: 0px;
+  padding: 0;
+  padding-bottom: 5%;
+}
+
+.highfi {
+  width: 90%;
+  margin: auto;
+  float: none;
+  display: block;
+}
+
+
+#branding2 {
+  width: 100%;
+  border-radius: 0px;
+  padding: 40px 0 40px 0;
+  margin: 40px 0 0 0;
+  }
+
+  #branding2 .brand-paragraph {
+    width: 70%;
+    float: none;
+
+  }
+
+  #branding2 .brand-paragraph2 {
+  width: 68%;
+  margin: auto;
+  float: none;
+
+}
+
+#branding2 .logo-image {
+  width: 70%;
+  float: none;
+}
+
+#branding2 .text-example {
+  width: 85%;
+  float: none;
+}
+
+#branding2 .color-image {
+  width: 60%;
+  float: none;
+  padding: 0;
+}
+
+#final-product-mobile,
+#final-product-desktop {
+  width: 100%;
+  border-radius: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container2 {
+  width: 68%;
+}
+.desktop2,
+.desktop3,
+.desktop4,
+.desktop5 {
+  display: block;
+  width: 85%;
+  float: none;
+  margin: auto;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.desktop1 {
+  float: none;
+  width: 85%;
+  padding: 0;
+  margin: auto;
+  display: block;
+  align: center;
+  margin-top: 40px;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+  header {
+    min-height: 400px;
+    max-height: 570px;
+  }
+
+  header #branding img {
+  width: 50%;
+}
+
+header h1 {
+  line-height: 45px;
+}
+
+header p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#showcase2 img {
+  width: 100%;
+}
+
+#problem h2 {
+  margin-top: 60px;
+}
+#deliverables {
+  padding: 0;
+  padding-bottom: 50px;
+}
+
+#deliverables .box {
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.actual_results {
+  width: 80%;
+}
+
+.wrapper2 {
+  width: 75%;
+}
+
+.results1 {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-radius: 20px 20px 0 0;
+}
+
+.results2 {
+  width: 100%;
+  margin-top: 2px;
+  border-radius: 0 0 20px 20px;
+}
+
+#high_fidelity_2 ol {
+  width: 90%;
+}
+
+  #branding2 .brand-paragraph {
+    width: 80%;
+    float: none;
+
+  }
+
+  #branding2 .brand-paragraph2 {
+  width: 78%;
+  margin: auto;
+  float: none;
+
+}
+
+#branding2 .logo-image {
+  width: 80%;
+  float: none;
+}
+
+#branding2 .text-example {
+  width: 100%;
+  float: none;
+}
+
+#branding2 .color-image {
+  width: 80%;
+  float: none;
+  padding: 0;
+}
+
+.phone1,
+.phone2,
+.phone3,
+.phone4 {
+  margin: auto;
+  display: block;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.phone5,
+.phone6,
+.phone7,
+.phone8 {
+  display: none;
+}
+.desktop1,
+.desktop2,
+.desktop3,
+.desktop4,
+.desktop5 {
+  width: 90%;
+  margin-top: 20px;
+}
+}
