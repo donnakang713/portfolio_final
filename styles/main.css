@@ -1,1 +1,188 @@
-# portfolio_final
+body {
+  font: 18px/1.5 'Rubik', sans-serif;
+  color: #1A1B3A;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*** Header and Hero Section ***/
+header {
+  min-height: 60px;
+  max-height: 60px;
+  padding-top: 10px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding img {
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+header a:hover {
+  color: #ff5252;
+}
+
+
+/*** About Me Section ***/
+h2 {
+  margin: 40px 0 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.header_p {
+  padding: 0;
+  margin: 5px 0 20px 0;
+}
+
+.paragraph_wrapper {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.header_p {
+  text-align: center;
+
+}
+
+#about_me img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+span {
+  font-weight: 500;
+}
+
+/*** Review Section ***/
+.box1 {
+  width: 39%;
+  padding: 5%;
+  margin: auto;
+  float: left;
+  background-color: rgba(216, 216, 216, 0.2);
+}
+
+.box2 {
+  width: 39%;
+  padding: 5%;
+  margin: auto;
+  float: right;
+  background-color: rgba(216, 216, 216, 0.2);
+}
+
+.review {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+/*** Footer Section ***/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color:#1A1B3A;
+  text-align: center;
+}
+
+
+/*** Media Queries ***/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header #branding img {
+    width: 30%;
+    padding-top: 30px;
+  }
+
+  header li {
+    padding: 0 10px 0 10px;
+  }
+
+  h2 {
+    padding: 50px 0 0 0;
+  }
+
+.paragraph_wrapper {
+  width: 85%;
+}
+
+.box1 {
+  width: 80%;
+  padding: 10%;
+  margin: auto;
+  float: none;
+  display: block;
+}
+
+.box2 {
+  width: 80%;
+  padding: 10%;
+  margin: auto;
+  margin-top: 30px;
+  float: none;
+  display: block;
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    padding: 40px 0 0 0;
+  }
+}
