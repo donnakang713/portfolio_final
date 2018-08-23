@@ -245,7 +245,7 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 120%;
+  width: 80%;
 }
 
 /*** TargetAudience_Differentiators ***/
@@ -270,7 +270,7 @@ a:hover{
 }
 
 .results1 {
-  width: 49.9%;
+  width: 33%;
   float: left;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -278,7 +278,16 @@ a:hover{
 }
 
 .results2 {
-  width: 49.9%;
+  width: 33%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 0px;
+  margin-left: 0.5%;
+}
+
+.results3 {
+  width: 33%;
   float: right;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -287,7 +296,7 @@ a:hover{
 
 .audienceimages {
   margin: auto;
-  width: 70%;
+  width: 90%;
 }
 
 #TargetAudience_Differentiators h3 {
@@ -305,8 +314,17 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
-  padding-bottom: 50px;
-  width: 80%;
+  padding-bottom: 70px;
+  width: 85%;
+}
+
+.usersflow5 {
+  padding-left: 7.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  width: 65%;
 }
 
 #userstory {
@@ -346,25 +364,69 @@ a:hover{
 #Wireframe_images {
   width: 90%;
   margin: auto;
-  background-color: rgba(216, 216, 216, 0.2);
+  background-color: #4A4A4A;
   margin-top: 40px;
   border-radius: 20px;
 }
 
-.wireframe1,
-.wireframe3,
-.wireframe4 {
-  display: inline-block;
+.wireframe1 {
+  width: 16.5%;
+  float: left;
   margin-left: 5%;
-  width: 44%;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-  margin-bottom: 1.5%;
+  margin-top: 5%;
 }
 
-.wireframe1,
-.wireframe2 {
-  margin-top: 50px;
+.wireframe2{
+  width: 16.5%;
+  float: left;
+  margin-left: 1.875%;
+  margin-top: 5%;
 }
+
+.wireframe3 {
+  width: 16.5%;
+  float: left;
+  margin-left: 1.875%;
+  margin-top: 5%;
+}
+
+.wireframe4{
+  width: 16.5%;
+  float: left;
+  margin-left: 1.875%;
+  margin-right: 1.875%;
+  margin-top: 5%;
+}
+
+.wireframe5{
+  width: 16.5%;
+  float: left;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.wireframe6{
+  width: 16.5%;
+  float: left;
+  margin-left: 23.37%;
+  margin-top: -17%;
+}
+
+.wireframe7{
+  width: 16.5%;
+  float: left;
+  margin-left: 1.875%;
+  margin-top: -17%;
+}
+
+.wireframe8 {
+  width: 16.5%;
+  float: left;
+  margin-left: 1.875%;
+  margin-right: 23.37%;
+  margin-top: -17%;
+}
+
 .wireframe-explain {
   width: 45%;
   margin-left: auto;
@@ -372,15 +434,14 @@ a:hover{
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
-  margin-top: 30px;
+  display: inline-block;
   padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 27.5%;
+  padding-right: 27.5%;
+  color: #ffffff;
 }
-.wireframe2 {
-  float: right;
-  margin-right: 5%;
-  width: 44%;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-}
+
 
 /*** User Testing Section ***/
 .video {
@@ -392,7 +453,7 @@ a:hover{
 #high_fidelity_2 {
   width: 80%;
   margin: auto;
-  background-color: rgba(216, 216, 216, 0.2);
+  background-color: #4A4A4A;
   border-radius: 20px;
   margin-top: 40px;
   padding: 0% 5% 5% 5%;
@@ -405,33 +466,45 @@ a:hover{
   margin: auto;
 }
 
-#high_fidelity_2 span {
-  font-weight: 500;
-}
-
 .image1 {
-  width: 95%;
+  width: 50%;
   display: block;
   margin: auto;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 }
 
-#high_fidelity_2 h4 {
+.image2 {
+  width: 50%;
   display: block;
+  margin: auto;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+}
+
+#high_fidelity_2 p {
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#high_fidelity_2 h4 {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
   margin-top: 50px;
-  margin-bottom:20px;
-  font-size: 18px;
-  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 600;
   color: #6BA6D3;
+  text-align: center;
 }
 
 #high_fidelity_2 ol {
   display: block;
   margin: auto;
   width: 70%;
+  color: #ffffff;
 }
 
 #high_fidelity_2 li {
@@ -499,6 +572,7 @@ a:hover{
   float: left;
   display: block;
   margin: auto;
+  margin-top: 50px;
 }
 
 #branding2 .text-example {
@@ -509,25 +583,24 @@ a:hover{
 }
 
 #branding2 .color-image {
-  width: 45%;
+  width: 33%;
   float: left;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 30px;
   display: block;
   margin: auto;
 }
 
 /*** Final Product Section ***/
-#final-product-mobile,
-#final-product-desktop {
+#Final_product_images {
   width: 90%;
   margin: auto;
-  background-color: rgba(216, 216, 216, 0.2);
-  margin-top: 4%;
+  background-color: #4A4A4A;
+  margin-top: 40px;
   border-radius: 20px;
-  padding-top: 4%;
-  padding-bottom: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .clearfix {
@@ -540,99 +613,14 @@ a:hover{
   overflow: hidden;
 }
 
-#final-product-desktop h4,
-#final-product-mobile h4 {
+#Final_product_images h4 {
   font-size: 28px;
   font-weight: 600;
   padding: 0;
   margin: 0 0 5px 0;
+  color: #ffffff;
 }
 
-#final-product-desktop a,
-#final-product-mobile a {
-  text-align: center;
-}
-
-.phone {
-  width: 100%;
-  margin: auto;
-  margin-top: 3%;
-  overflow: auto;
-}
-
-.phone1 {
-  margin-right: 2%;
-  margin-left: 6%;
-  width: 20%;
-}
-
-.phone2,
-.phone3 {
-  margin-right: 2%;
-  width: 20%;
-}
-.phone4 {
-  width: 20%;
-  margin-right: 6%;
-}
-
-.phone5 {
-  margin-right: 2%;
-  margin-left: 6%;
-  width: 20%;
-}
-
-.phone6,
-.phone7 {
-  margin-right: 2%;
-  width: 20%;
-}
-
-.phone8 {
-  width: 20%;
-  margin-right: 6%:
-}
-
-.phone1,
-.phone2,
-.phone3,
-.phone4,
-.phone5,
-.phone6,
-.phone7,
-.phone8 {
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-}
-
-.desktop2,
-.desktop3,
-.desktop4,
-.desktop5 {
-  display: inline-block;
-  width: 44%;
-  float: left;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-  margin-left: 5%;
-}
-
-.desktop1 {
-  float: right;
-  align: top;
-  width: 44%;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-  margin-top: 3%;
-  margin-right: 5%;
-}
-
-.desktop2 {
-  margin-top: 3%;
-}
-
-.desktop3,
-.desktop4,
-.desktop5 {
-  margin-top: 2%;
-}
 
 /*** Key Learnings ***/
 .keylearning {
