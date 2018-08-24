@@ -588,22 +588,22 @@ a:hover{
   float: left;
   display: block;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #branding2 .text-example {
   width: 75%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 5px;
   display: block;
 }
 
 #branding2 .color-image {
   width: 33%;
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 30px;
+  padding-left: 8%;
+  padding-right: 2%;
+  padding-top: 50px;
   display: block;
   margin: auto;
 }
