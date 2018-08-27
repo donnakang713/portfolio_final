@@ -126,8 +126,6 @@ header a:hover {
   padding: 0 0 20px 0;
 }
 
-
-
 /*** Deliverables Section ***/
 #deliverables {
   background-color: rgba(216, 216, 216, 0.2);
@@ -179,7 +177,6 @@ a:hover{
 }
 
 /*** Solutions Section ***/
-
 #solution img {
   width: 100%;
   margin: auto;
@@ -250,12 +247,31 @@ a:hover{
 }
 
 /**** User Persona Section ***/
-.users {
+.users1 {
   display: block;
+  float: left;
+  margin-left: 11.5%;
+  margin-right: 1%;
+  margin-top: 30px;
+  width: 25%;
+}
+
+.users2 {
+  display: block;
+  float: left;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 80%;
+  width: 25%;
+}
+
+.users3 {
+  display: block;
+  float: left;
+  margin-left: 1%;
+  margin-right: 11.5%;
+  margin-top: 30px;
+  width: 25%;
 }
 
 /*** TargetAudience_Differentiators ***/
@@ -734,8 +750,8 @@ footer {
   }
 
   header {
-    min-height: 400px;
-    max-height: 630px;
+    min-height: 150px;
+    max-height: 150px;
   }
 
   header #branding,
@@ -755,23 +771,31 @@ footer {
     padding: 0 10px 0 10px;
   }
 
-  header h1 {
-    margin-top: 20px;
-    line-height: 1.5;
-    font-size: 35px;
-    margin-bottom: 10px;
+  #Hero {
+  min-height: 600px;
+  max-height: 600px;
+}
+
+  .showcase1 img {
+    width: 40%;
+    margin-top: 160px;
   }
 
-  header p {
-    margin-bottom: 30px;
-  }
+  .showcase2 {
+  width: 58%;
+  margin-left: 2%;
+}
 
-  #showcase2 img {
-  width: 100%;
+#Hero h1 {
+  margin-top: 250px;
 }
 
 .paragraph_wrapper {
   width: 85%;
+}
+
+#problem h2 {
+  margin-top: 60px;
 }
 
 h2 {
@@ -786,12 +810,6 @@ h2 {
   border-radius: 0;
 }
 
-#solution .link1,
-#solution .link2 {
-  width: 100%;
-  text-align: center;
-}
-
 .actual_results {
   width: 90%;
 }
@@ -799,20 +817,43 @@ h2 {
 #user_results li {
   line-height: 45px;
   font-size: 18px;
-  color: #ffffff;
 }
 
 #user_results span {
   font-size: 25px;
   font-weight: 500;
+  padding-bottom: 50px;
 }
 
 .center {
   width: 90%;
 }
 
-.users {
-  width: 100%;
+.users1 {
+  display: block;
+  float: left;
+  margin-left: 4%;
+  margin-right: 1%;
+  margin-top: 30px;
+  width: 30%;
+}
+
+.users2 {
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 30%;
+}
+
+.users3 {
+  display: block;
+  float: left;
+  margin-left: 1%;
+  margin-right: 4%;
+  margin-top: 30px;
+  width: 30%;
 }
 
 #TargetAudience_Differentiators {
@@ -826,7 +867,7 @@ h2 {
 
 .audienceimages {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 #userstory {
@@ -839,27 +880,26 @@ h2 {
   width: 90%;
 }
 
+.usersflow5 {
+  padding-left: 5.5%;
+}
+
+
 #Wireframe_images {
   padding-top: 40px;
   width: 100%;
   border-radius: 0px;
 }
 
-.wireframe1,
-.wireframe2,
-.wireframe3,
-.wireframe4 {
-  width: 85%;
-  margin: auto;
-  display: block;
-  margin-top: 20px;
-}
 
-.wireframe2 {
-  float: none;
-}
 .wireframe-explain {
+  display: block;
   width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: auto;
+  float: left;
+  color: #ffffff;
 }
 
 #high_fidelity_2 {
@@ -869,13 +909,21 @@ h2 {
   padding-bottom: 5%;
 }
 
-.highfi {
-  width: 90%;
-  margin: auto;
-  float: none;
+#high_fidelity_2 p {
+  width: 24%;
   display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #ffffff;
 }
 
+#high_fidelity_2 .align1 {
+  margin-top: 78px;
+}
+#high_fidelity_2 .align2 {
+  margin-top: 60px;
+}
 
 #branding2 {
   width: 100%;
@@ -887,18 +935,16 @@ h2 {
   #branding2 .brand-paragraph {
     width: 70%;
     float: none;
-
   }
 
   #branding2 .brand-paragraph2 {
   width: 68%;
   margin: auto;
   float: none;
-
 }
 
 #branding2 .logo-image {
-  width: 70%;
+  width: 60%;
   float: none;
 }
 
@@ -908,13 +954,12 @@ h2 {
 }
 
 #branding2 .color-image {
-  width: 60%;
+  width: 40%;
   float: none;
   padding: 0;
 }
 
-#final-product-mobile,
-#final-product-desktop {
+#Final_product_images {
   width: 100%;
   border-radius: 0px;
   padding-top: 40px;
@@ -924,60 +969,42 @@ h2 {
 .container2 {
   width: 68%;
 }
-.desktop2,
-.desktop3,
-.desktop4,
-.desktop5 {
-  display: block;
-  width: 85%;
-  float: none;
-  margin: auto;
-  padding: 0;
-  margin-top: 40px;
-}
-
-.desktop1 {
-  float: none;
-  width: 85%;
-  padding: 0;
-  margin: auto;
-  display: block;
-  align: center;
-  margin-top: 40px;
-}
 }
 
 @media screen and (max-width: 400px) {
   .container {
-  width: 90%;
+  width: 85%;
   margin: auto;
   overflow: hidden;
 }
-  header {
-    min-height: 400px;
-    max-height: 570px;
-  }
 
-  header #branding img {
-  width: 50%;
+#Hero {
+  background-image: url("../images/SH_Images/hero_image.png");
+  background-position: right center;
+  min-height: 550px;
+  max-height: 550px;
 }
 
-header h1 {
-  line-height: 45px;
+.showcase1 img {
+  display: none;
 }
 
-header p {
-  font-size: 16px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-#showcase2 img {
+  .showcase2 {
   width: 100%;
+  margin-left: 0%;
 }
 
+#Hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 200px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.4;
+}
 #problem h2 {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 #deliverables {
   padding: 0;
@@ -992,7 +1019,30 @@ header p {
 }
 
 .actual_results {
-  width: 80%;
+  width: 90%;
+}
+
+#user_results span {
+  font-size: 40px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.result {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.users1,
+.users2,
+.users3 {
+  display: block;
+  float: none;
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
 }
 
 .wrapper2 {
@@ -1009,12 +1059,75 @@ header p {
 .results2 {
   width: 100%;
   margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.results3 {
+  width: 100%;
+  margin-top: 2px;
   border-radius: 0 0 20px 20px;
 }
 
-#high_fidelity_2 ol {
-  width: 90%;
+.wireframe-explain {
+  display: block;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: auto;
+  float: left;
+  color: #ffffff;
 }
+
+.highfi {
+  width: 100%;
+}
+
+.image1 {
+  width: 80%;
+}
+
+.image2 {
+  width: 80%;
+}
+
+#high_fidelity_2 p {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+#high_fidelity_2 h4 {
+  margin-bottom: 20px;
+}
+
+#high_fidelity_2 ol {
+  padding-bottom: 50px;
+  margin: auto;
+  width: 80%;
+  color: #ffffff;
+}
+
+#high_fidelity_2 .first {
+  padding: 5px 0 0 0;
+  margin: 0;
+}
+
+#high_fidelity_2 h5 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#high_fidelity_2 .align1 {
+  margin-top: 0px;
+}
+#high_fidelity_2 .align2 {
+  margin-top: 0px;
+}
+
 
   #branding2 .brand-paragraph {
     width: 80%;
@@ -1043,30 +1156,5 @@ header p {
   width: 80%;
   float: none;
   padding: 0;
-}
-
-.phone1,
-.phone2,
-.phone3,
-.phone4 {
-  margin: auto;
-  display: block;
-  width: 60%;
-  margin-top: 20px;
-}
-
-.phone5,
-.phone6,
-.phone7,
-.phone8 {
-  display: none;
-}
-.desktop1,
-.desktop2,
-.desktop3,
-.desktop4,
-.desktop5 {
-  width: 90%;
-  margin-top: 20px;
 }
 }

@@ -11,20 +11,16 @@ body {
   overflow: hidden;
 }
 
-/*** Header and Hero Section ***/
+/*** Header section ***/
 header {
-  min-height: 400px;
-  max-height: 700px;
-  background-image: url("../images/Space_Images/Background Image .png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  min-height: 65px;
+  max-height: 65px;
   padding-top: 10px;
-  color: #ffffff;
+  color: #1A1B3A;
 }
 
 header a {
-  color: #ffffff;
+  color: #1A1B3A;
   text-decoration: none;
   font-size: 20px;
 }
@@ -60,13 +56,25 @@ header a:hover {
   color: #ff5252;
 }
 
+/*** Hero Section ***/
+#Hero {
+  background-image: url("../images/Space_Images/Background Image .png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  display: block;
+  margin: auto;
+  min-height: 400px;
+  max-height: 700px;
+}
+
 @font-face {
   font-family: 'Avenir Next';
   src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
   }
 
-header h1 {
-  margin-top: 80px;
+#Hero h1 {
+  margin-top: 65px;
   text-align: center;
   font-size: 35px;
   font-weight: normal;
@@ -74,7 +82,7 @@ header h1 {
   font-family: "Avenir Next" !important;
 }
 
-header p {
+#Hero p {
   font-size: 18px;
   color: white;
   font-weight: normal;
@@ -84,8 +92,8 @@ header p {
   margin-bottom: 40px;
 }
 
-#showcase2 img {
-  width: 90%;
+.showcase2 img {
+  width: 62%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -239,12 +247,21 @@ a:hover{
 }
 
 /**** User Persona Section ***/
-.users {
+.users1 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin-left: 0%;
+  margin-right: .4%;
   margin-top: 30px;
-  width: 90%;
+  width: 49.8%;
+}
+
+.users2 {
+  display: block;
+  float: left;
+  margin-left: 0%;
+  margin-top: 30px;
+  width: 49.8%;
 }
 
 /*** TargetAudience_Differentiators ***/
@@ -672,8 +689,8 @@ footer {
   }
 
   header {
-    min-height: 400px;
-    max-height: 630px;
+    min-height: 150px;
+    max-height: 150px;
   }
 
   header #branding,
@@ -693,19 +710,24 @@ footer {
     padding: 0 10px 0 10px;
   }
 
-  header h1 {
-    margin-top: 20px;
+  #Hero {
+  min-height: 550px;
+  max-height: 580px;
+}
+
+  #Hero h1 {
+    margin-top: 50px;
     line-height: 1.5;
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
-  header p {
-    margin-bottom: 30px;
+  #Hero p {
+    margin-bottom: 20px;
   }
 
-  #showcase2 img {
-  width: 100%;
+  .showcase2 img {
+  width: 90%;
 }
 
 .paragraph_wrapper {
@@ -747,10 +769,6 @@ h2 {
 
 .center {
   width: 90%;
-}
-
-.users {
-  width: 100%;
 }
 
 #TargetAudience_Differentiators {
@@ -891,26 +909,27 @@ h2 {
   margin: auto;
   overflow: hidden;
 }
-  header {
-    min-height: 400px;
-    max-height: 570px;
-  }
 
   header #branding img {
   width: 50%;
 }
 
-header h1 {
+#Hero {
+min-height: 500px;
+max-height: 500px;
+}
+#Hero h1 {
   line-height: 45px;
+  margin-top: 60px;
 }
 
-header p {
+#Hero p {
   font-size: 16px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
-#showcase2 img {
+.showcase2 img {
   width: 100%;
 }
 
@@ -931,6 +950,23 @@ header p {
 
 .actual_results {
   width: 80%;
+}
+
+.users1 {
+  display: block;
+  float: left;
+  margin-left: 0%;
+  margin-right: .4%;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.users2 {
+  display: block;
+  float: left;
+  margin-left: 0%;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .wrapper2 {
