@@ -10,21 +10,17 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/animate.css">
   </head>
 
   <body>
     <header>
       <div class="container">
-        <div id="branding">
-          <a href="index.html">
-            <img src="images/Home_images/logo2.png" width=55%>
-          </a>
-        </div>
         <nav>
           <ul>
-            <li><a href="index.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Contact</a></li>
+            <li><a class="top">Projects</a></li>
+            <li><a class="top" href="about.html">About</a></li>
+            <li><a class="top" href="mailto:donnakang713@gmail.com">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -32,16 +28,23 @@
 
     <section id="Hero">
       <div class="container">
-        <h2>Hi! I'm Donna,<br><span>a UX/UI Designer based in<br>the San Francisco Bay Area.</span></h2>
-        <p>I design beautiful & friendly user interfaces and create seamless user experiences.</p>
+        <img class=logo src=images/Home_images/doglogo.png>
+        <div class=intro>
+          <p class=h1>Herro! I'm Donna,</p>
+          <p class=h2>a UX/UI Designer based in <br>the San Francisco Bay Area.</br></p>
+          <p class=h3>Thank you for stopping by. Feel free to explore around, <br> check out my <a class=intro2 href="https://drive.google.com/file/d/1qg7x7fu5oXXCT2AyLLhhqf0H_pF5PZO8/view?usp=sharing" target="_blank">resume,</a> or connect with me via <a class=intro2 href="http://www.linkedin.com/in/donna-choi" target="_blank">LinkedIn</a>.</br>Want to chat? Simply set up a coffee date via <a class=intro2 href="mailto:donnakang713@gmail.com">email</a>.<br>We can chat about puppies all day :)</br></p>
+        </div>
       </div>
     </section>
 
     <section id="SimplyHomemade">
       <div class="container">
-        <img src=images/Home_images/simply_showcase.png>
+        <p class=h4>My Featured Projects</p>
+        <a href=Simply_Homemade.html>
+          <img class="wow zoomIn" src=images/Home_images/SH_main.png>
+        </a>
         <div class="paragraph_wrapper">
-          <h3>Simply Homemade<h3>
+          <h3>Simply Homemade</h3>
           <p>Simply Homemade is the next “Uber of home cooked meals” where users can buy and sell  home cooked meals with just a few taps on the screen. It’s easy, it’s fast, and meals are simply homemade.</p>
           <a class=button href=Simply_Homemade.html>View Case Study<i class="fas fa-caret-right fa-fw"></i></a>
         </div>
@@ -50,31 +53,44 @@
 
     <section id="Space">
       <div class="container">
-        <img src=images/Home_images/space_showcase.png>
+        <a href=Space.html>
+          <img src=images/Home_images/space_main.png>
+        </a>
         <div class="paragraph_wrapper">
-          <h3>Space<h3>
-          <p>Space is a user-friendly cloud storage application that allows users to save, create, upload, and share content in one simple interface.</p>
+          <h3>Space</h3>
+          <p>Space is a user-friendly cloud storage application that allows users to save, create, upload, and share content in one simple interface. With Space, users have secure access to their files anytime, anywhere, and with any device.</p>
           <a class=button href=Space.html>View Case Study<i class="fas fa-caret-right fa-fw"></i></a>
         </div>
       </div>
     </section>
 
-
-
     <footer>
-      <p>Designed and Developed by Donna Choi &copy; 2018</p>
-      <div class=links>
-        <a class=footer_icon href="http://www.linkedin.com/in/donna-choi" target="#">
-          <i class="fab fa-linkedin fa-lg"></i>
-        </a>
-        <a class=footer_icon href="https://github.com/donnakang713" target="#">
-          <i class="fab fa-github-square fa-lg"></i>
-        </a>
-        <a class=footer_icon href="https://dribbble.com/donnajchoi" target="#">
-          <i class="fab fa-dribbble-square fa-lg"></i>
-        </a>
+      <div class=container_3>
+        <img class=footer_dog src=images/Home_images/footer_dog.png>
+        <div class=footer_info>
+          <p class=footer1>Let's Get In Touch!</p>
+          <p class=footer2>Thank you for stopping by, and I hope you enjoyed my work. Feel free to <a class=contact href="mailto:donnakang713@gmail.com">contact me</a>. I'd love to hear from you.</p>
+          <p>Designed and Developed by Donna Choi &copy; 2018</p>
+        </div>
+        <div class=links>
+          <a class=footer_icon href="http://www.linkedin.com/in/donna-choi" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a class=footer_icon href="https://github.com/donnakang713" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
+          <a class=footer_icon href="https://dribbble.com/donnajchoi" target="_blank">
+            <i class="fab fa-dribbble-square fa-2x"></i>
+          </a>
+          <a class=footer_resume href="https://drive.google.com/file/d/1qg7x7fu5oXXCT2AyLLhhqf0H_pF5PZO8/view?usp=sharing" target="_blank">Download Resume</a>
+        </div>
       </div>
     </footer>
+    <script  type='text/javascript' src="js/scripts.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 
 
   </body>
