@@ -45,8 +45,8 @@ header #branding {
 
 header #branding img {
   margin: 0;
-  padding-top: 14px;
-  width: 28%;
+  padding-top: 15px;
+  width: 160px;
 }
 
 header nav {
@@ -285,10 +285,10 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  background-color: rgba(216, 216, 216, 0.2);
+  background-color: #ffffff;
   border-radius: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .wrapper2 {
@@ -344,8 +344,8 @@ a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   width: 85%;
 }
 
@@ -362,19 +362,23 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  width: 80%;
+  width: 100%;
   background-color: rgba(216, 216, 216, 0.2);
   padding-top: 50px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 #userstory h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   padding-top: 0;
   padding-bottom: 0;
-  margin-top:0;
+  margin-top: 55px;
   margin-bottom: 10px;
+}
+
+#userstory .first {
+  margin-top: 10px;
 }
 
 #userstory p {
@@ -393,13 +397,20 @@ a:hover{
 
 /*** Wireframe Sections ***/
 #Wireframe_images {
-  width: 90%;
+  width: 100%;
   margin: auto;
   background-color: #4A4A4A;
   margin-top: 40px;
-  border-radius: 20px;
+  border-radius: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+.container_2 {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
 .wireframe1 {
   width: 16.5%;
   float: left;
@@ -484,40 +495,35 @@ a:hover{
 #high_fidelity_2 {
   width: 80%;
   margin: auto;
-  background-color: #4A4A4A;
+  background-color: #ffffff;
   border-radius: 20px;
-  margin-top: 40px;
-  padding: 0% 5% 5% 5%;
+  margin-top: 0px;
+
 }
 
 .highfi {
   display: block;
-  width: 50%;
+  width: 100%;
   float: left;
   margin: auto;
 }
 
 .image1 {
-  width: 50%;
-  display: block;
+  width: 20%;
+  float: left;
   margin: auto;
+  margin-left: 20%;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 }
 
 .image2 {
-  width: 50%;
-  display: block;
-  margin: auto;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
-}
-
-#high_fidelity_2 p {
   width: 20%;
-  display: block;
+  float: left;
   margin: auto;
-  margin-top: 20px;
-  font-size: 15px;
-  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 }
 
 #high_fidelity_2 h4 {
@@ -525,17 +531,25 @@ a:hover{
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 25px;
-  font-weight: 600;
-  color: #80BAFF;
+  font-size: 30px;
+  font-weight: 500;
+  color: #6BA6D3;
   text-align: center;
 }
 
 #high_fidelity_2 ol {
-  display: block;
+  float: left;
   margin: auto;
-  width: 70%;
-  color: #ffffff;
+  margin-left: 5%;
+  width: 35%;
+}
+
+#high_fidelity_2 .problem {
+  margin-top: 50px;
+}
+
+#high_fidelity_2 .solution {
+  margin-top: 150px;
 }
 
 #high_fidelity_2 li {
@@ -551,7 +565,7 @@ a:hover{
 }
 
 #high_fidelity_2 h5 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   padding-top: 30px;
   padding-bottom: 0;
@@ -559,12 +573,6 @@ a:hover{
   margin-bottom: 0;
 }
 
-#high_fidelity_2 .align1 {
-  margin-top: 100px;
-}
-#high_fidelity_2 .align2 {
-  margin-top: 81px;
-}
 /*** branding section ***/
 #branding2 {
   width: 70%;
@@ -631,11 +639,11 @@ a:hover{
 
 /*** Final Product Section ***/
 #Final_product_images {
-  width: 90%;
+  width: 100%;
   margin: auto;
   background-color: #4A4A4A;
   margin-top: 40px;
-  border-radius: 20px;
+  border-radius: 0px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -808,6 +816,7 @@ footer .footer_icon {
   margin: auto;
   width: 100%;
   font-weight: 400;
+  font-size: 18px;
   margin-top: 20px;
 }
 
@@ -828,8 +837,9 @@ footer .footer_icon {
     }
 
   header {
-    min-height: 110px;
-    max-height: 110px;
+    min-height: 30px;
+    max-height: 30px;
+    position: relative;
   }
 
   header #branding,
@@ -984,26 +994,47 @@ h2 {
 
 #high_fidelity_2 {
   width: 100%;
-  border-radius: 0px;
-  padding: 0;
-  padding-bottom: 5%;
 }
 
-#high_fidelity_2 p {
-  width: 24%;
+.highfi {
+  display: block;
+  width: 100%;
+  float: none;
+  margin: auto;
+}
+
+.image1 {
+  width: 35%;
   display: block;
   margin: auto;
-  margin-top: 20px;
-  font-size: 15px;
-  color: #ffffff;
+  float: none;
 }
 
-#high_fidelity_2 .align1 {
-  margin-top: 78px;
+.image2 {
+  width: 35%;
+  display: block;
+  margin: auto;
+  float: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
-#high_fidelity_2 .align2 {
-  margin-top: 60px;
+
+#high_fidelity_2 .problem {
+  margin-top: 20px;
 }
+
+#high_fidelity_2 .solution {
+  margin-top: 20px;
+}
+
+
+#high_fidelity_2 ol {
+  display: block;
+  margin: auto;
+  float: none;
+  width: 60%;
+}
+
 
 #branding2 {
   width: 100%;
@@ -1171,52 +1202,16 @@ header #branding img {
 }
 
 .image1 {
-  width: 80%;
+  width: 70%;
 }
 
 .image2 {
-  width: 80%;
-}
-
-#high_fidelity_2 p {
-  width: 100%;
-  float: left;
-  text-align: center;
-}
-
-#high_fidelity_2 h4 {
-  margin-bottom: 20px;
+  width: 70%;
 }
 
 #high_fidelity_2 ol {
-  padding-bottom: 50px;
-  margin: auto;
   width: 80%;
-  color: #ffffff;
 }
-
-#high_fidelity_2 .first {
-  padding: 5px 0 0 0;
-  margin: 0;
-}
-
-#high_fidelity_2 h5 {
-  font-size: 30px;
-  font-weight: 600;
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#high_fidelity_2 .align1 {
-  margin-top: 0px;
-}
-#high_fidelity_2 .align2 {
-  margin-top: 0px;
-}
-
-
   #branding2 .brand-paragraph {
     width: 80%;
     float: none;

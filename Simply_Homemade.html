@@ -26,7 +26,7 @@
           <ul>
             <li><a href="index.html">Projects</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Contact</a></li>
+            <li><a class="top" href="mailto:donnakang713@gmail.com">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -125,7 +125,7 @@
     </section>
 
     <section id="user_results">
-      <div class="actual_results wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
+      <div class="actual_results">
         <ul style="list-style-type:none">
           <li><span>39%</span><p class=result>have used meal delivery applications, such as Blue Apron and Freshly. Reasons: Convenience (73%), healthier recipes (55%)</p></li>
           <li><span>100%</span><p class=result>of meal delivery app users, have used Blue Apron.  Freshly ranked second most used (27.3%)</p></li>
@@ -200,7 +200,8 @@
     </section>
 
     <section id="userstory">
-      <h3 class="usersflow">User Flow 1: Onboarding Process</h3>
+      <div class=container_2>
+      <h3 class="usersflow first">User Flow 1: Onboarding Process</h3>
       <p class="usersflow">As a <span>new buyer</span>, I want to <span>sign up</span> so that <span>I can place meal orders</span>.<br>As a <span>returning buyer</span>, I want to <span>log in</span> so that <span>I can place meal orders</span>.</p>
       <img src="images/SH_Images/USER FLOW 1_SH.png" alt="userflow1" class="usersflow">
 
@@ -219,6 +220,7 @@
       <h3 class="usersflow">User Flow 5: Edit Chef profile</h3>
       <p class="usersflow">As a <span>returning seller</span>, I want to <span>edit my profile</span> so that <span>buyers get to know me</span>.</p>
       <img src="images/SH_Images/USERFLOW5_SH.png" alt="userflow1" class="usersflow5">
+    </div>
     </section>
 
 
@@ -233,16 +235,18 @@
     </section>
 
     <section id="Wireframe_images">
-      <div class=clearfix>
-        <img src="images/SH_Images/wf_1.png" alt="category-wireframe" class="wireframe1 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_2.png" alt="homepage-wireframe" align="top" class="wireframe2 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_3.png" alt="share-wireframe" class="wireframe3 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_4.png" alt="user-dashboard-wireframe" class="wireframe4 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_5.png" alt="category-wireframe" class="wireframe5 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_6.png" alt="homepage-wireframe" align="top" class="wireframe6 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_7.png" alt="share-wireframe" class="wireframe7 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_8.png" alt="user-dashboard-wireframe" class="wireframe8 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <p class=wireframe-explain>I tested my wireframes using Maze. <a href="https://t.maze.design/417020" target="_blank">View my test here.</a> I received a lot of comments on the “Purchase a meal” and “Apply to become a chef” user flows. Users wanted to page to view order details before they actually place a meal order. Users also noted that the chef application process was too long and it consisted of repetitive questions. Users wanted it to be simpler and concise.</p>
+      <div class="container_2">
+        <div class=clearfix>
+          <img src="images/SH_Images/wf_1.png" alt="category-wireframe" class="wireframe1 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_2.png" alt="homepage-wireframe" align="top" class="wireframe2 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_3.png" alt="share-wireframe" class="wireframe3 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_4.png" alt="user-dashboard-wireframe" class="wireframe4 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_5.png" alt="category-wireframe" class="wireframe5 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_6.png" alt="homepage-wireframe" align="top" class="wireframe6 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_7.png" alt="share-wireframe" class="wireframe7 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <img src="images/SH_Images/wf_8.png" alt="user-dashboard-wireframe" class="wireframe8 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+          <p class=wireframe-explain>I tested my wireframes using Maze. <a href="https://t.maze.design/417020" target="_blank">View my test here.</a> I received a lot of comments on the “Purchase a meal” and “Apply to become a chef” user flows. Users wanted to page to view order details before they actually place a meal order. Users also noted that the chef application process was too long and it consisted of repetitive questions. Users wanted it to be simpler and concise.</p>
+        </div>
       </div>
     </section>
 
@@ -270,8 +274,7 @@
       <h4>Buyer's Dashboard</h4>
       <div class=highfi>
         <img src="images/SH_Images/buyerdash_draft.png" class=image1>
-        <p>Version 1</p>
-        <ol style="1">
+        <ol style="1" class="problem">
           <h5>Problem:</h5>
           <li class=first>“Recents icon (located bottom center) does not seem to be as useful.”</li>
           <li>“I would like to see list and grid view of this page.”</li>
@@ -280,8 +283,7 @@
       </div>
       <div class=highfi>
         <img src="images/SH_Images/buyerdash_final.png" class=image2>
-        <p>Final Version</p>
-        <ol style="1">
+        <ol style="1" class="solution">
           <h5>Solution:</h5>
           <li class=first>I removed Recents icon and included Shopping Cart icon, which allows users to purchase all meals at once.</li>
           <li>I included Heart icons for each meal picture. User can save meals in Favorites view.</li>
@@ -296,8 +298,7 @@
       <h4>Preview post before posting a meal</h4>
       <div class=highfi>
         <img src="images/SH_Images/preview_draft.png" class=image1>
-        <p>Version 1</p>
-        <ol style="1">
+        <ol style="1" class="problem">
           <h5>Problem:</h5>
           <li class=first>“Instead of having the option to click ‘Preview’ can it just show the preview?”</li>
           <li>“It’s always good to see preview page before I post.”</li>
@@ -306,8 +307,7 @@
       </div>
       <div class=highfi>
         <img src="images/SH_Images/Preview_final.png" class=image2>
-        <p>Final Version</p>
-        <ol style="1">
+        <ol style="1" class="solution">
           <h5>Solution:</h5>
           <li class=first>I created a page that directly guides the user to the preview page (without having to click preview button)</li>
           <li>I included “Edit post” and “Post meal” buttons.</li>
@@ -321,8 +321,7 @@
       <h4>Apply to Become a Chef</h4>
       <div class=highfi>
         <img src="images/SH_Images/apply_draft.png" class=image1>
-        <p>Version 1</p>
-        <ol style="1">
+        <ol style="1" class="problem">
           <h5>Problem:</h5>
           <li class=first>“Edit buttons are too distracting with the main call-to-action button under the Background Check section”</li>
           <li>“Questions in 'Create a sample dish' process appears to be repetitive. Simply have users upload pictures of their dish.”</li>
@@ -330,8 +329,7 @@
       </div>
       <div class=highfi>
         <img src="images/SH_Images/apply_final.png" class=image2>
-        <p>Final Version</p>
-        <ol style="1" class=align1>
+        <ol style="1" class="solution">
           <h5>Solution:</h5>
           <li class=first>I included light arrow icons so that users can easily go back to those sections to edit. Users don’t get distracted to the main background check section.</li>
           <li>I removed 'Create a sample dish' questions as it appeared too long and repetitive. Users can simply upload meal pics instead.</li>
@@ -345,8 +343,7 @@
       <h4>Set Meal Availability</h4>
       <div class=highfi>
         <img src="images/SH_Images/avail_draft.png" class=image1>
-        <p>Version 1</p>
-        <ol style="1">
+        <ol style="1" class="problem">
           <h5>Problem:</h5>
           <li class=first>This page allows sellers to input their dish availability when posting a meal.</li>
           <li>“Date and Time sections appears too vague.”</li>
@@ -355,8 +352,7 @@
       </div>
       <div class=highfi>
         <img src="images/SH_Images/availability_final.png" class=image2>
-        <p>Final Version</p>
-        <ol style="1">
+        <ol style="1" class=solution>
           <h5>Solution:</h5>
           <li class=first>I included section 1, which allows sellers to select which days of the week they want to provide this dish.</li>
           <li>I included section 2, which allows sellers to select daily start and end time.</li>
@@ -371,8 +367,7 @@
       <h4>Meal Info Page</h4>
       <div class=highfi>
         <img src="images/SH_Images/mealinfo_draft.png" class=image1>
-        <p>Version 1</p>
-        <ol style="1" class=align2>
+        <ol style="1" class="problem">
           <h5>Problem:</h5>
           <li class=first>“How can I view order details before I actually click Place an Order?”</li>
           <li>“What if I want to change delivery address and payment method?”</li>
@@ -383,8 +378,7 @@
       </div>
       <div class=highfi>
         <img src="images/SH_Images/mealpage_final.png" class=image2>
-        <p>Final Version</p>
-        <ol style="1">
+        <ol style="1" class=solution>
           <h5>Solution:</h5>
           <li class=first>I included “Add to cart” checkout” button so that user can add meals to cart.</li>
           <li>I included “Proceed to checkout” button so that user can review order details and edit delivery address and payment method if need be.</li>
@@ -449,19 +443,21 @@
     </section>
 
     <section id="Final_product_images">
+      <div class=container_2>
       <div class="container2">
         <h4>Simply Homemade Mobile App</h4>
         <a class="button" href=https://invis.io/CEM4PBMZRS4 target="_blank">View Mobile Prototype<i class="fas fa-caret-right fa-fw"></i></a>
       </div>
       <div class=clearfix>
-        <img src="images/SH_Images/wf_final1.png" class="final1 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/buyerdash_final.png" class="final2 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_final2.png" class="final3 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_final3.png" class="final4 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/mealpage_final.png" class="final5 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_final5.png" class="final6 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_final4.png" class="final7 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
-        <img src="images/SH_Images/wf_final7.png" class="final8 wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
+        <img src="images/SH_Images/wf_final1.png" class="final1 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/buyerdash_final.png" class="final2 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/wf_final2.png" class="final3 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/wf_final3.png" class="final4 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/mealpage_final.png" class="final5 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/wf_final5.png" class="final6 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/wf_final4.png" class="final7 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+        <img src="images/SH_Images/wf_final7.png" class="final8 wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+      </div>
       </div>
     </section>
 

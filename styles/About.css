@@ -65,8 +65,8 @@ header #branding {
 
 header #branding img {
   margin: 0;
-  padding-top: 14px;
-  width: 28%;
+  padding-top: 15px;
+  width: 160px;
 }
 
 header nav {
@@ -125,10 +125,19 @@ span {
   font-weight: 500;
 }
 
-/*** Skills Section ***/
+/*** Skills & Tools Section ***/
 #deliverables {
   background-color: rgba(216, 216, 216, 0.2);
   padding: 50px 0px 50px 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+#tools {
+  background-color: rgba(216, 216, 216, 0.2);
+  padding: 50px 0px 30px 0px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -143,7 +152,8 @@ span {
 .clearfix {
   overflow: auto;
 }
-#deliverables .box {
+#deliverables .box,
+#tools .box {
   float: left;
   width: 25%;
   text-align: center;
@@ -159,6 +169,15 @@ span {
 #deliverables li {
   line-height: 30px;
   font-weight: 300;
+}
+
+.tools {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.tools1 {
+  font-size: 14px;
 }
 
 /*** Review Section ***/
@@ -183,6 +202,7 @@ span {
 .review {
   text-align: left;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
 
 
@@ -257,6 +277,7 @@ footer .footer_icon {
   margin: auto;
   width: 100%;
   font-weight: 400;
+  font-size: 18px;
   margin-top: 20px;
 }
 
@@ -308,6 +329,12 @@ footer .footer_icon {
 #deliverables {
   width: 80%;
   padding: 0px 0px 50px 0px;
+
+}
+
+#tools{
+  width: 80%;
+  padding: 50px 0px 30px 0px;
 
 }
 
@@ -364,9 +391,22 @@ footer .footer_icon {
 
   }
 
+  #tools {
+    width: 85%;
+    padding: 0px 0px 50px 0px;
+
+  }
+
   #deliverables .box {
     float: left;
     width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  #tools .box {
+    float: left;
+    width: 50%;
     text-align: center;
     padding-top: 50px;
   }
