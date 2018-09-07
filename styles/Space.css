@@ -362,21 +362,19 @@ a:hover{
 }
 
 /*** Wireframe Sections ***/
-.slider {
- margin-top: 30px;
- text-align: center;
-}
-
-.mySlides {
-  width: 100%;
-}
-
 #Wireframe_images {
   width: 100%;
   margin: auto;
   background-color: #ffffff;
   margin-top: 0px;
   border-radius: 0px;
+}
+
+.sketch {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .wireframe1,
@@ -417,6 +415,12 @@ a:hover{
 }
 
 /*** High fidelity Section ***/
+iframe {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
 #high_fidelity_2 {
   width: 80%;
   margin: auto;
