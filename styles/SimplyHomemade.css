@@ -585,7 +585,7 @@ a:hover{
   width: 70%;
   margin: auto;
   background-color: rgba(216, 216, 216, 0.2);
-  border-radius: 20px;
+  border-radius: 50px;
   margin-top: 40px;
   padding: 60px;
   }
@@ -729,6 +729,92 @@ a:hover{
   margin-left: 1.875%;
   margin-right: 23.37%;
   margin-top: -21%;
+}
+
+/***Product Features***/
+
+.explore_paragraph {
+  width: 35%;
+  float: left;
+  margin-left: 20%;
+}
+
+.apply_paragraph {
+  width: 35%;
+  float: right;
+  margin-right: 20%;
+}
+
+.purchase_paragraph {
+  width: 35%;
+  float: left;
+  margin-left: 20%;
+}
+
+#explain_features1 {
+  border-radius: 50px 50px 0 0;
+  background-color: #75CAC2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#explain_features2 {
+  background-color: #75CAC2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+#explain_features3 {
+  border-radius: 0 0 50px 50px;
+  background-color: #75CAC2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+
+
+.h4_features {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  padding:0;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.p_features {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  padding:0;
+  margin: 0 auto;
+}
+
+.explore {
+  width: 17%;
+  float: right;
+  padding-right: 20%;
+}
+
+.apply {
+  width: 17%;
+  float: left;
+  padding-left: 20%;
+}
+
+.purchase {
+  width: 17%;
+  float: right;
+  padding-right: 20%;
 }
 
 /*** Key Learnings ***/
@@ -1084,6 +1170,87 @@ h2 {
   padding-bottom: 40px;
 }
 
+.explore_paragraph {
+  width: 70%;
+  float: none;
+  display: block;
+  margin: auto;
+}
+
+.apply_paragraph {
+  width: 70%;
+  float: none;
+  display: block;
+  margin: auto;
+}
+
+.purchase_paragraph {
+  width: 70%;
+  float: none;
+  display: block;
+  margin: auto;
+}
+
+#explain_features1 {
+  border-radius: 0px 0px 0 0;
+  background-color: #329F95;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#explain_features2 {
+  background-color: #329F95;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+#explain_features3 {
+  border-radius: 0px;
+  background-color: #329F95;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  width: 100%;
+  margin: auto;
+}
+
+
+.explore {
+  width: 40%;
+  float: none;
+  padding-right: 0%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.apply {
+  width: 40%;
+  float: none;
+  padding-left: 0;
+  display: block;
+  margin: auto;
+}
+
+.purchase {
+  width: 40%;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.h4_features {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
 .container2 {
   width: 68%;
 }
@@ -1246,6 +1413,22 @@ header #branding img {
   width: 80%;
   float: none;
   padding: 0;
+}
+
+.explore {
+  width: 60%;
+}
+
+.apply {
+  width: 60%;
+}
+
+.purchase {
+  width: 60%;
+}
+
+.h4_features {
+  font-size: 30px;
 }
 
 .footer_info {
