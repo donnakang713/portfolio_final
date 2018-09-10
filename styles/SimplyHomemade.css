@@ -493,9 +493,10 @@ a:hover{
 
 
 /*** User Testing Section ***/
-.video {
+iframe {
+  margin: auto;
+  margin-top: 20px;
   display: block;
-  margin: 0 auto;
 }
 
 /*** High fidelity Section ***/
