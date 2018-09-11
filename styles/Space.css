@@ -72,26 +72,19 @@ header a:hover {
   max-height: 750px;
 }
 
-@font-face {
-  font-family: 'Avenir Next';
-  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
-  }
-
 #Hero h1 {
   margin-top: 130px;
   text-align: center;
   font-size: 35px;
   font-weight: normal;
   color: white;
-  font-family: "Avenir Next" !important;
 }
 
 #Hero p {
   font-size: 18px;
   color: white;
   font-weight: normal;
-  text-align: center;
-  font-family: "Avenir Next" !important;
+  text-align: center; 
   line-height: 1.5;
   margin-bottom: 25px;
 }
