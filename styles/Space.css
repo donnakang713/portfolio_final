@@ -818,11 +818,10 @@ footer .footer_icon {
         visibility: visible !important;
     }
 
-    header {
-      min-height: 110px;
-      max-height: 110px;
-      position: relative;
-    }
+  header {
+    min-height: 110px;
+    max-height: 110px;
+  }
 
   header #branding,
   header nav,
