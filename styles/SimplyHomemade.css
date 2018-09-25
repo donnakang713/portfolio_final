@@ -210,16 +210,17 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .actual_results {
-  width: 70%;
+  width: 63%;
   margin: auto;
 }
 
 #user_results li {
+  line-height: 60px;
   font-size: 20px;
   color: #ffffff;
 }
@@ -227,20 +228,10 @@ a:hover{
 #user_results span {
   font-size: 30px;
   font-weight: 500;
-  float: left;
-  width: 12%;
-  margin: auto;
-  padding-bottom: 30px;
+
 }
 
-.result {
-  width: 88%;
-  font-weight: 400;
-  margin: auto;
-  text-align: left;
-  line-height: 1.7;
-  padding-bottom: 40px;
-}
+
 
 /*** Competitive Analysis Section ***/
 .center {
@@ -1314,19 +1305,6 @@ header #branding img {
 
 .actual_results {
   width: 90%;
-}
-
-#user_results span {
-  font-size: 40px;
-  float: left;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.result {
-  width: 100%;
-  padding-bottom: 40px;
 }
 
 .users1,
